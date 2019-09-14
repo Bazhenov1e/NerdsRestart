@@ -10,6 +10,17 @@ body {
   color: #000000;
 }
 
+/*
+  Порядок свойств в css
+
+  Позиционирование
+  Блочная модель
+  Типографика
+  Оформление
+  Анимация
+  Разное
+*/
+
 a {
   text-decoration: none;
 }
@@ -17,4 +28,53 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.inner-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: red;
+}
+
+.main-header-logo {
+  padding-top: 50px;
+}
+
+.main-nav {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.site-navigation {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+
+
+  padding-left: 0px;
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-top: 82px;
+  width: 440px;
+}
+
+.user-navigation {
+  list-style: none;
+
+  padding-left: 0px;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 82px;
 }
