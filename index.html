@@ -10,21 +10,25 @@
 
 <body>
 
-  <header class="main-header inner-container">
-    <a href="#" class="main-header-logo">
-      <img src="img/nerds-logo.png" alt="Логотип Нёрдс" width="160" height="65">
-    </a>
-    <nav class="main-nav">
-      <ul class="site-navigation">
-        <li class="item-navigation"><a href="#">Студия</a></li>
-        <li class="item-navigation"><a href="#">Клиенты</a></li>
-        <li class="item-navigation"><a href="#">Магазин</a></li>
-        <li class="item-navigation"><a href="#">Контакты</a></li>
-      </ul>
-      <ul class="user-navigation">
-        <li><a href="#" class="basket">Корзина</a></li>
-      </ul>
-    </nav>
+  <header class="page-header">
+    <div class="header-inner-container">
+      <div class="page-header-top">
+        <a href="#" class="main-header-logo">
+          <img src="img/nerds-logo.png" alt="Логотип Нёрдс" width="160" height="65">
+        </a>
+        <nav class="main-nav">
+          <ul class="site-navigation">
+            <li class="item-navigation"><a href="#">Студия</a></li>
+            <li class="item-navigation"><a href="#">Клиенты</a></li>
+            <li class="item-navigation"><a href="#">Магазин</a></li>
+            <li class="item-navigation"><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="user-navigation">
+            <li><a href="#" class="basket">Корзина</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
 
@@ -32,10 +36,13 @@
   <section class="slider">
     <div class="inner-container">
       <h2 class="visually-hidden">Преимущества</h2>
+      <input class="visually-hidden" type="radio" name="toggle" id="product-1" checked>
+      <input class="visually-hidden" type="radio" name="toggle" id="product-2">
+      <input class="visually-hidden" type="radio" name="toggle" id="product-3">
       <div class="slider-controls">
-        <i class="active"></i>
-        <i></i>
-        <i></i>
+        <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+        <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+        <label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
       </div>
       <ul class="slider-list">
         <li class="slider-item">
