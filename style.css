@@ -372,3 +372,75 @@ li.product-item:nth-child(3) {
   background-color: #e5a722;
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
+
+.about-us-heading {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.about-us-information {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+
+  width: 660px;
+}
+
+.about-us-item-information {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-us-item {
+
+  color: #283136;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+.about-us-heading {
+  margin: 0;
+  padding: 0;
+}
+
+.our-advantages {
+  display: flex;
+}
+
+.our-advantages-1 {
+  width: 110px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.our-advantages-item {
+  font-size: 45px;
+}
+
+.our-advantages-description {
+  font-size: 16px;
+  line-height: 18px;
+  color: #283136;
+}
+
+.about-us-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-page-left {
+  width: 660px;
+  margin-top: 80px;
+}
+
+.about-us-page-right {
+  width: 360px;
+
+  margin-top: 40px;
+}
