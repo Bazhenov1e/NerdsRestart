@@ -83,6 +83,8 @@ img {
   display: block;
   margin-top: 50px;
   box-sizing: border-box;
+  width: 160px;
+  height: 65px;
 }
 
 .main-header-logo:hover {
@@ -97,7 +99,7 @@ img {
   display: flex;
   justify-content: space-between;
 
-  width: 820px;
+  width: 800px;
   margin-top: 70px;
 }
 
@@ -105,9 +107,12 @@ img {
   list-style: none;
 
   display: flex;
+  justify-content: space-between;
 
   margin: 0;
   padding: 0;
+  padding-top: 7px;
+  width: 440px;
 }
 
 .main-nav__link {
@@ -116,10 +121,10 @@ img {
   width: 100%;
 
   margin: 0;
-  padding: 10px 10px;
 
   font-size: 16px;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .main-nav__link:hover {
@@ -132,6 +137,8 @@ img {
 
 .main-nav__item {
   white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .user-navigation__list {
@@ -140,6 +147,11 @@ img {
   margin: 0;
 }
 
+.user-navigation__item {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 7px;
+}
 
 .slider {
   position: relative;
@@ -377,6 +389,19 @@ li.product-item:nth-child(3) {
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
+.about-us-page {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.about-us-page-left {
+  width: 660px;
+}
+
+.about-us-page-right {
+  width: 360px;
+}
 
 .about-us-heading {
   font-size: 45px;
