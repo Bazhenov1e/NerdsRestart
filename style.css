@@ -471,3 +471,72 @@ li.product-item:nth-child(3) {
   height: 2px;
   background-color: #fb565a;
 }
+
+.table-indication__caption {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: separate;
+  display: table;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+}
+
+caption {
+  display: table-caption;
+}
+
+.table-indication {
+  border-spacing: 0;
+}
+
+.company__table-indication {
+  margin-top: 28px;
+}
+
+.table-indication thead {
+  display: table-footer-group;
+}
+
+.table-indication__cell {
+  padding: 0;
+  width: 33.33333%;
+  height: 67px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.table-indication__cell sup {
+  font-size: 25px;
+}
+
+sup {
+  vertical-align: super;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.table-indication__header {
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: left;
+}
