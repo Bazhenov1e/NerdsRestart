@@ -67,8 +67,6 @@ img {
 }
 
 .inner-container {
-  display: block;
-
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -285,15 +283,14 @@ img {
 }
 
 .button {
-  display: block;
-  width: 240px;
-  padding: 16px 0;
-
-  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  font: inherit;
+  padding: 16px 40px;
+  font-weight: 500;
   line-height: 18px;
   color: #ffffff;
   text-transform: uppercase;
-  text-align: center;
   text-decoration: none;
 
   background-color: #fb565a;
@@ -311,6 +308,26 @@ img {
 
   background-color: #d7373b;
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+.button--red {
+  background-color: #fb565a;
+}
+
+.slide__button {
+  padding: 16px 54px;
+}
+
+.offers__button {
+  margin-top: 14px;
+}
+
+.button--green {
+  background-color: #00ca74;
+}
+
+.button--yellow {
+  background-color: #efc84a;
 }
 
 .page-main-top {
@@ -413,7 +430,7 @@ li.product-item:nth-child(3) {
 
 .products {
   margin-top: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .about-us {
@@ -456,7 +473,7 @@ li.product-item:nth-child(3) {
   color: #000000;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 23px;
+  margin-bottom: 25px;
 }
 
 .about-us-item {
@@ -583,4 +600,40 @@ th {
   bottom: 50%;
   transform: translateY(50%);
   background-color: #eee;
+}
+
+.map {
+  position: relative;
+  height: 416px;
+  overflow: hidden;
+}
+
+.map-image {
+  position: absolute;
+  z-index: 10px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 1440px;
+  height: 416px;
+}
+
+.map__contacts-wrapper {
+  margin-top: 54px;
+}
+
+.contacts {
+  position: relative;
+  z-index: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 220px;
+  background-color: #fff;
+}
+
+.contacts__button {
+  margin-top: 23px;
+  padding: 16px 44px;
 }
