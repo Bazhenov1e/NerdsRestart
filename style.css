@@ -1,4 +1,4 @@
-body {
+.page {
   margin: 0;
   padding: 0;
   min-width: 1200px;
@@ -9,17 +9,6 @@ body {
   font-weight: 400;
   color: #000000;
 }
-
-/*
-  Порядок свойств в css
-
-  Позиционирование
-  Блочная модель
-  Типографика
-  Оформление
-  Анимация
-  Разное
-*/
 
 a {
   text-decoration: none;
@@ -34,13 +23,6 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  clip: rect(0, 0, 0, 0);
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   padding: 0;
   margin: -1px;
   overflow: hidden;
@@ -48,7 +30,8 @@ img {
   border: 0;
 }
 
-.page-header {
+.page__header {
+  padding-top: 49px;
   background-color: #eeeeee;
 }
 
@@ -56,17 +39,7 @@ img {
   margin-bottom: 80px;
 }
 
-.header-inner-container {
-  display: block;
-
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-sizing: border-box;
-}
-
-.inner-container {
+.header__container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -75,10 +48,6 @@ img {
   box-sizing: border-box;
 }
 
-.page-header-top {
-  display: flex;
-  justify-content: space-between;
-}
 
 .main-header-logo {
   display: block;
@@ -96,12 +65,9 @@ img {
   opacity: 0.4;
 }
 
-.main-nav {
+.header__navigation {
   display: flex;
   justify-content: space-between;
-
-  width: 800px;
-  margin-top: 70px;
 }
 
 .main-nav__list {
@@ -690,8 +656,9 @@ th {
   transition: 5s ease in out;
 }
 
-.social-links__link:hover {
+.social-links__link {
   background-color: #e74246;
+}
 }
 
 .social-offering {
