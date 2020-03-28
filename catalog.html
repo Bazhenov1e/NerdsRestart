@@ -67,19 +67,16 @@
     			<legend class="form-filters__legend">Сетка:</legend>
     			<ul class="form-filters__input-wrapper">
     				<li class="form-filters__input-block">
-    					<label class="form-filters__label form-filters__label-radio">
-    						<input class="form-filters__radio" name="grid" value="adaptive" type="radio">	
-    					</label>
+                        <input class="form-filters__radio visually-hidden" id="adaptive" name="grid" value="adaptive" type="radio">
+    					<label class="form-filters__label form-filters__label-radio" for="adaptive">Адаптивная</label>
     				</li>
     				<li class="form-filters__input-block">
-    					<label class="form-filters__label form-filters__label-radio">
-    						<input class="form-filters__radio" name="grid" value="fixed" type="radio">	
-    					</label>
+                        <input class="form-filters__radio visually-hidden" id="fixed" name="grid" value="fixed" type="radio">
+    					<label class="form-filters__label form-filters__label-radio" for="fixed">Фиксированая</label>
     				</li>
     				<li class="form-filters__input-block">
-    					<label class="form-filters__label form-filters__label-radio">
-    						<input class="form-filters__radio" name="grid" value="fluid" type="radio">	
-    					</label>
+                        <input class="form-filters__radio visually-hidden" id="responsive" name="grid" value="fluid" type="radio">
+    					<label class="form-filters__label form-filters__label-radio" for="responsive">Резиновая</label>
     				</li>
     			</ul>
     		</fieldset>
@@ -87,29 +84,24 @@
     			<legend class="form-filters__legend">Особенности:</legend>
     			<ul class="form-filters__input-wrapper">
     				<li class="form-filters__input-block">
-    					<label class="form-filters__label form-filters__label-checkbox">
-    						<input class="form-filters__checkbox" type="checkbox" name="features" value="slider" checked>
-    					</label>
+                        <input class="form-filters__checkbox visually-hidden" id="slider" type="checkbox" value="slider" checked>
+    					<label class="form-filters__label form-filters__label-checkbox" for="slider">Слайдер</label>
     				</li>
     				<li class="form-filters__input-block">
-    					<label class="form-filters__label form-filters__label-checkbox">
-    						<input class="form-filters__checkbox" type="checkbox" name="features" value="features">
-    					</label>
+                        <input class="form-filters__checkbox visually-hidden" id="benefits-block" type="checkbox" value="features">
+    					<label class="form-filters__label form-filters__label-checkbox" for="benefits-block">Блок преимуществ</label>
     				</li>
     				<li class="form-filters__input-block">
-    					<label class="form-filters__label form-filters__label-checkbox">
-    						<input class="form-filters__checkbox" type="checkbox" name="features" value="news">
-    					</label>
+                        <input class="form-filters__checkbox visually-hidden" id="news" type="checkbox" value="news">
+    					<label class="form-filters__label form-filters__label-checkbox" for="news">Новости</label>
     				</li>
     				<li class="form-filters__input-block">
-    					<label class="form-filters__label form-filters__label-checkbox">
-    						<input class="form-filters__checkbox" type="checkbox" name="features" value="gallery">
-    					</label>
+                        <input class="form-filters__checkbox visually-hidden" id="gallery" type="checkbox" value="gallery">
+    					<label class="form-filters__label form-filters__label-checkbox" for="gallery">Галерея</label>
     				</li>
     				<li class="form-filters__input-block">
-    					<label class="form-filters__label form-filters__label-checkbox">
-    						<input class="form-filters__checkbox" type="checkbox" name="features" value="cart">
-    					</label>
+                        <input class="form-filters__checkbox visually-hidden" id="basket" type="checkbox" value="cart">
+    					<label class="form-filters__label form-filters__label-checkbox" for="basket">Корзина</label>
     				</li>
     			</ul>
     		</fieldset>
